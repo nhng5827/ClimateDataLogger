@@ -1,0 +1,31 @@
+
+.mat-column-status {
+  max-width: 45px;
+}
+.mat-column-status {
+  text-align: center;
+  justify-content: flex-end;
+}
+.mat-header-cell{
+  text-align: left;
+  justify-content: normal;
+}
+.mat-column-date {
+  max-width: 180px;
+}
+.mat-column-url {
+  max-width: 1150px;
+}
+.mat-cell{
+  border-right: 2px solid rgba(0, 0, 0, 0.12);
+  padding-left: 10px;
+}
+.mat-cell:Last-Child{
+  border:none
+}
+.make-green {
+  background-color: rgba(5,158,35,0.6)
+}
+.make-red {
+  background-color: rgba(235,33,24,0.6)
+}
